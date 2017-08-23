@@ -5,7 +5,7 @@ title: Interoperability With Both World
 
 ## Intro
 
-Swift designed  to pervoid seamless compatibility with  Cocoa and objective-c . you can use objective c api in swift as well . its a powerful tool to integrate into you workflow.
+Swift designed  to pervoide seamless compatibility with  Cocoa and objective-c . you can use objective c api in swift as well . its a powerful tool to integrate into you workflow.
 
 Start from Import 
 
