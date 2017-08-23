@@ -39,9 +39,9 @@ init(frame:CGRect, style: UITableViewStyle){}
 if you go through these 2 styles of syntax you will find don’t need to call `alloc` Swift handles this for you. Notice also that `init` doesn’t appear anywhere when calling the Swift-style initializer.
 ### Example 
 objc
-UITableView *myTableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+`UITableView *myTableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];`
 swift
-let myTableView: UITableView = UITableView(frame: .zero, style: .grouped)
+`let myTableView: UITableView = UITableView(frame: .zero, style: .grouped)`
 
 ### Failable Initialization
 In objc initalizer directly return the object they initialize. or when initialiser failed an it return nil. in swift the patten  built into a language feature called failable initialization.
